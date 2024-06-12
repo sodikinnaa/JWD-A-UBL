@@ -1,0 +1,20 @@
+# Layouting
+1. Header
+2. Sidebar
+3. Content/section
+4. Footer
+
+# Isi Menu:
+1. Input Produk Form Filled-in
+- Kode Produk
+- Nama Produk
+- Harga Produk
+- Jumlah Produk
+2. Table Produk
+
+# tugas 
+1. Wireframe
+2. Prototype (html)
+
+
+ 
