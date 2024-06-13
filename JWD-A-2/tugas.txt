@@ -5,3 +5,5 @@
 - Button type Button
 3. Buat tag script untuk menjalankan function javascript
 - nama function hitung
+
+JS
