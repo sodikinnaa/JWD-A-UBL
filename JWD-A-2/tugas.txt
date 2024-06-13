@@ -1,0 +1,7 @@
+#Task 1 sesion 4
+1. Buat File html dengan nama index.html
+2. Buat ag form dengan elemen html atau komponen html yang terdiri dari
+- Text Field (Angka 1 dan Angka 2)
+- Button type Button
+3. Buat tag script untuk menjalankan function javascript
+- nama function hitung

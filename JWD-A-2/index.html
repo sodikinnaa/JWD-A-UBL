@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Perhitungan</title>
+</head>
+<body>
+    <h1>Form Perhitungan</h1>
+    <form id="formHitung">
+        <div>
+            <label for="angka1">Angka 1:</label>
+            <input type="number" id="angka1" name="angka1">
+        </div>
+        <div>
+            <label for="angka2">Angka 2:</label>
+            <input type="number" id="angka2" name="angka2">
+        </div>
+        <button type="button" onclick="hitung()">Hitung</button>
+    </form>
+
+    <h2>Hasil: <span id="hasilHitung"></span></h2>
+
+    <script>
+        function hitung() {
+            // Ambil nilai dari input
+            var angka1 = parseFloat(document.getElementById('angka1').value);
+            var angka2 = parseFloat(document.getElementById('angka2').value);
+
+
+            // Lakukan perhitungan
+            var hasil = angka1 + angka2;
+
+            // Tampilkan hasil
+            document.getElementById('hasilHitung').innerText = hasil;
+            console.log("Hasil penjumlahan " + angka1 + " + " + angka2 + " = " + hasil)
+        }
+    </script>
+</body>
+</html>
